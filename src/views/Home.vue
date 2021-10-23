@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <section>
+    <br>
+    <div class="homePageFirstText">Welcome to Tekle's Online Bookstore!</div>
+    <br>
+    <home-category-list></home-category-list>
+    <br>
+  </section>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import HomeCategoryList from "@/components/HomeCategoryList";
 export default {
-  name: "home",
+  name: "Home",
   components: {
-    HelloWorld
+    HomeCategoryList
   }
 };
 </script>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css?family=Proza+Libre");
+p {
+    margin: 10px;
+}
+
+hr {
+    width: 100%;
+    border: black solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.homePageFirstText {
+  font-size: 30px;
+}
+</style>
