@@ -4,7 +4,7 @@
       <router-link to="/">
         <img width="100" height="90"
              src="../assets/images/site/bookstore-logo.png"
-                alt="Teklebirhan Bookstore Logo"
+                alt="Tekle Bookstore Logo"
         />
       </router-link>
     </div>
