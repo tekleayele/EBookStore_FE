@@ -1,4 +1,4 @@
-# client
+# EBookStore FE
 
 ## Project setup
 ```
